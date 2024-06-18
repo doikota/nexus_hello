@@ -1,0 +1,12 @@
+# Project files
+.classpath
+.project
+.settings/
+
+# Build output
+target/*
+report/*
+.scannerwork/
+
+# Log
+log/*
