@@ -16,7 +16,6 @@
     <maven.compiler.target>1.7</maven.compiler.target>
     <sonar.projectKey>nexus_hello</sonar.projectKey>
     <sonar.host.url>http://localhost:9000</sonar.host.url>
-    <sonar.token>sqp_c2e0481b64c60996386b961f27a2e223ffdc19d2</sonar.token>
   </properties>
 
   <repositories>
