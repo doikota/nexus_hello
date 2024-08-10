@@ -38,3 +38,20 @@ Nexus上に配置されているアーティファクトに依存関係を設定
       <version>1.0-SNAPSHOT</version>
     </dependency>
 ```
+
+### 各種Mavenコマンド
+```
+mvn clean
+mvn compile
+mvn exec:java
+mvn test
+mvn package
+mvn install
+mvn deploy
+```
+※デプロイ先はローカル設置のNexus　http://localhost:8081
+
+### SonarQubeで分析
+```
+mvn sonar:sonar -D sonar.token=<このプロジェクトのトークン> -D soner.host.url=<SonarQube URL>
+```
