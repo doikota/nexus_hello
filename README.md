@@ -53,5 +53,5 @@ mvn deploy
 
 ### SonarQubeで分析
 ```
-mvn sonar:sonar -D sonar.token=<このプロジェクトのトークン> -D soner.host.url=<SonarQube URL>
+mvn sonar:sonar -D sonar.token=<このプロジェクトのトークン>
 ```
